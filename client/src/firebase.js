@@ -6,12 +6,12 @@ import "firebase/storage";
 //STORED THE FIREBASE DETAILS IN .env.local FILE
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCfR2dtgAujJrTo9dQudYEgdJR1LibYuU4",
-  authDomain: "prueba-medicos.firebaseapp.com",
-  projectId: "prueba-medicos",
-  storageBucket: "prueba-medicos.appspot.com",
-  messagingSenderId: "1020855849561",
-  appId: "1:1020855849561:web:dfa78fad46c79a6b595748"
+  apiKey: "AIzaSyABzSU84yO8IKhYuz3strM9oltq4QV2MI4",
+  authDomain: "vitaindia-e3eab.firebaseapp.com",
+  projectId: "vitaindia-e3eab",
+  storageBucket: "vitaindia-e3eab.appspot.com",
+  messagingSenderId: "840330575906",
+  appId: "1:840330575906:web:9cdd7d6d6649c42cca8a7b"
 };
 
 firebase.initializeApp(firebaseConfig);
