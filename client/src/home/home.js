@@ -10,9 +10,9 @@ import Footer from "./footer";
 
 const sections = [
   { title: "Home", url: "#" },
-  { title: "About", url: "#about" },
-  { title: "Register", url: "#register" },
-  { title: "Contact", url: "#contact" },
+  { title: "Acerca de", url: "#about" },
+  { title: "Registrarse", url: "#register" },
+  
 ];
 
 const theme = createTheme();
@@ -36,8 +36,7 @@ const Home = () => {
           <About />
           {/* TESTIMONIALS COMPONENT - patient testimonials */}
           <Testimonials />
-          {/* FOOTER COMPONENT - contacts */}
-          <Footer />
+          
         </main>
       </Container>
     </ThemeProvider>
