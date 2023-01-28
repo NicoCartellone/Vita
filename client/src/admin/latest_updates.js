@@ -27,7 +27,7 @@ const Latest_Updates = () => {
   return (
     <>
       <Navbar />
-      <Container maxWidth="lg" sx={container}>
+      <Container maxWidth="xl" sx={container}>
         <Grid container>
           <Grid item xs={12}>
             {/* LATEST UPDATES */}
@@ -47,7 +47,7 @@ const Latest_Updates = () => {
                         <Typography
                           variant="h6"
                           sx={typography}
-                          sx={{ width: "75%", flexShrink: 0 }}
+
                         >
                           {post.title}
                         </Typography>

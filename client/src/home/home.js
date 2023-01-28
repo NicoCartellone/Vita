@@ -9,10 +9,10 @@ import Testimonials from "./testimonials";
 import Footer from "./footer";
 
 const sections = [
-  { title: "Home", url: "#" },
   { title: "Acerca de", url: "#about" },
+  { title: "Home", url: "#" },
   { title: "Registrarse", url: "#register" },
-  
+
 ];
 
 const theme = createTheme();
@@ -21,9 +21,9 @@ const Home = () => {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
+      <Navbar sections={sections} />
       <Container maxWidth="lg" sx={{ backgroundColor: "#d7e8f4" }}>
         {/* NAVBAR COMPONENT - links to various sections*/}
-        <Navbar sections={sections} />
 
         <main>
           {/* HEADER COMPONENT - image with tagline*/}
@@ -36,9 +36,10 @@ const Home = () => {
           <About />
           {/* TESTIMONIALS COMPONENT - patient testimonials */}
           <Testimonials />
-          
+
         </main>
       </Container>
+      <Footer />
     </ThemeProvider>
   );
 };

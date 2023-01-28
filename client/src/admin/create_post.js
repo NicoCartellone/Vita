@@ -64,7 +64,7 @@ const Create_Post = () => {
   return (
     <>
       <Navbar />
-      <Container maxWidth="lg" sx={container}>
+      <Container maxWidth="xl" sx={container}>
         <Typography variant="h4" align="center" sx={typography}>
           Create Post
         </Typography>

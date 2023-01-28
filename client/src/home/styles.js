@@ -14,7 +14,7 @@ export const title = {
 };
 
 export const navbarToolbar = {
-  justifyContent: "space-between",
+  justifyContent: "end",
   overflowX: "auto",
   backgroundColor: "#d7e8f4",
 };

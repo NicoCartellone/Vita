@@ -52,7 +52,7 @@ const Patients = () => {
   return (
     <>
       <Navbar />
-      <Container maxWidth="lg" sx={container}>
+      <Container maxWidth="xl" sx={container}>
         <Grid container spacing={3}>
           {/* UNVERIFIED PATIENTS */}
           <Grid item xs={12}>

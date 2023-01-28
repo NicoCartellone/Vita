@@ -7,7 +7,7 @@ const Admin_Dashboard = () => {
   return (
     <>
       <Navbar />
-      <Container maxWidth="lg" sx={container}>
+      <Container maxWidth="xl" sx={container}>
         <Grid container spacing={3}>
           <Grid item xs={12}>
             <Typography variant="h4" align="center" sx={typography}>

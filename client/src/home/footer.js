@@ -48,7 +48,7 @@ const Footer = () => {
         </Typography>
         <Copyright />
         <Typography variant="subtitle1" align="center" sx={raleway}>
-          Developed by Sneha Singh
+          Developed by 💓
         </Typography>
 
         <Grid container>
@@ -58,11 +58,11 @@ const Footer = () => {
               Connect with us
             </Typography>
 
-            <IconButton href="https://github.com/Sneha0607" sx={iconButton}>
+            <IconButton href="https://github.com/" sx={iconButton}>
               <GitHubIcon />
             </IconButton>
 
-            <IconButton href="https://twitter.com/sneha_0607" sx={iconButton}>
+            <IconButton href="https://twitter.com/" sx={iconButton}>
               <TwitterIcon />
             </IconButton>
 
@@ -87,7 +87,7 @@ const Footer = () => {
               <EmailIcon />
               <Typography variant="body2">
                 {" "}
-                sneha.20198023@mnnit.ac.in{" "}
+                example@example.com{" "}
               </Typography>
             </IconButton>
             <IconButton href="#" sx={iconButton}>
